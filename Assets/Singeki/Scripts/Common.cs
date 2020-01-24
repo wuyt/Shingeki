@@ -12,7 +12,8 @@ namespace Shingeki
     public class Common : MonoBehaviour
     {
 
-        void Start()
+
+        void Awake()
         {
             pathKeyPoints = Application.persistentDataPath + "/keypoints.txt";
             pathRoads = Application.persistentDataPath + "/roads.txt";

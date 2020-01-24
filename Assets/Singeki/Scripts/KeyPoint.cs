@@ -22,7 +22,7 @@ namespace Shingeki
         /// </summary>
         public string name;
         /// <summary>
-        /// 类型：-1=扫描点；0=途经点；1=目标点
+        /// 类型：0=扫描点；1=途经点；2=目标点
         /// </summary>
         public int pointType;
     }
