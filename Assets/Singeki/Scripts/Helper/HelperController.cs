@@ -12,6 +12,16 @@ namespace Shingeki.Helper
         /// </summary>
         private GameObject canvas;
 
+
+        void Awake()
+        {
+            var helpers = GameObject.FindObjectsOfType<HelperController>();
+            for (int i = 1; i < helpers.Length; i++)
+            {
+                Destroy(helpers[i].gameObject);
+            }
+        }
+
         void Start()
         {
             DontDestroyOnLoad(gameObject);

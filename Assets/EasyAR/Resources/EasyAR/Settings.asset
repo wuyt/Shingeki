@@ -19,7 +19,7 @@ MonoBehaviour:
       EnableTargetDataFile: 1
       EnableTarget: 1
     ObjectTarget:
-      Enable: 1
+      Enable: 0
   GlobalSpatialMapServiceConfig:
     APIKey: 
     APISecret: 
