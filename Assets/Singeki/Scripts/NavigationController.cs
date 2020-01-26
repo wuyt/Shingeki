@@ -148,6 +148,8 @@ namespace Shingeki
                     var arrival = Instantiate(prefabArrival, navRoot.Find("Arrivals"));
                     arrival.position = point.position;
                     arrival.rotation = point.rotation;
+                    //目标点只在用到的时候才显示
+                    arrival.gameObject.SetActive(false);
                     //生成按钮
                     var ab = Instantiate(prefabButton, svContent);
                     ab.GetComponentInChildren<Text>().text = point.name;
