@@ -9,6 +9,12 @@ EditorBuildSettings:
     path: Assets/Singeki/Scenes/Menu.unity
     guid: eeda9e456262d874da8e3999c70a9c70
   - enabled: 1
+    path: Assets/Singeki/Scenes/PreKeyPoints.unity
+    guid: 1928b6a60724b2049985b4a8ae8f3978
+  - enabled: 1
+    path: Assets/Singeki/Scenes/PreNavigation.unity
+    guid: cb63507052ab4514b8afe8ac2ce4a7a8
+  - enabled: 1
     path: Assets/Singeki/Scenes/KeyPoints.unity
     guid: aac5949b1d952b047978d2330305d27d
   - enabled: 1
